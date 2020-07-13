@@ -9,6 +9,6 @@ def oxford_comma(array)
   elsif array.length >= 3
   binding.pry
     array.join(', ') 
-    array.last  (-2,' and')
+    array.last.insert(0, 'and')
   end
 end

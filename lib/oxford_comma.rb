@@ -3,7 +3,7 @@ require 'pry'
 def oxford_comma(array)
   var1 = "hello"
   binding.pry
-    var1 = "hello"
+    var2 = "bye"
   if array.length == 1
      array[0]
   elsif array.length == 2

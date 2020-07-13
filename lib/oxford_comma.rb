@@ -1,8 +1,7 @@
 # require 'pry'
 
-def oxford_comma(array)
+def oxford_comma(array.split)
   # binding.pry
-  array.split
   if array.length == 1
      array[0]
   elsif array.length == 2
